@@ -13,8 +13,6 @@ public class Logo : MonoBehaviour
     public int bounces;
     public int corners;
 
-    private bool _waiting;
-
     //public string Ordinal;
 
     private void OnEnable()
@@ -36,7 +34,7 @@ public class Logo : MonoBehaviour
     {
         corners++;
         bounces += 49;
-        Debug.Log($"{bounces} | {corners}");
+        //Debug.Log($"{bounces} | {corners}");
     }
 
     private Color RandomColor()
